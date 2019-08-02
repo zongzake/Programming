@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Arit"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-02 04:44:40 PM"/>
+        <attribute name="created" value="QXJpdDtBUklUOzI1NjItMDgtMDI7MDI6NTc6NDEgUE07MTk5Mg=="/>
+        <attribute name="edited" value="QXJpdDtBUklUOzI1NjItMDgtMDI7MDQ6NDQ6NDAgUE07MzsyMDk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="username" type="String" array="False" size=""/>
+            <declare name="password" type="Integer" array="False" size=""/>
+            <input variable="username"/>
+            <input variable="password"/>
+            <if expression="">
+                <then>
+                    <output expression="&quot;Welcome to Zongzake Shop&quot;" newline="True"/>
+                    <output expression="&quot;What do you want to buy something?&quot;" newline="True"/>
+                    <output expression="&quot;This is all menu in Zongzake shop&quot;" newline="True"/>
+                    <output expression="&quot;------------------&quot;" newline="True"/>
+                    <output expression="&quot;1.Banana  15 THB.&quot;" newline="True"/>
+                    <output expression="&quot;2.Water   10 THB.&quot;" newline="True"/>
+                    <output expression="&quot;3.Noodle  40 THB.&quot;" newline="True"/>
+                    <output expression="&quot;4.Rice   150 THB.&quot;" newline="True"/>
+                    <output expression="&quot;5.Buns    12 THB.&quot;" newline="True"/>
+                    <output expression="&quot;------------------&quot;" newline="True"/>
+                    <declare name="Item" type="Integer" array="False" size=""/>
+                    <input variable="Item"/>
+                    <if expression="">
+                        <then>
+                            <declare name="Item" type="Integer" array="False" size=""/>
+                            <output expression="cost1 = 15" newline="True"/>
+                            <declare name="amount1" type="Integer" array="False" size=""/>
+                            <input variable="amount1"/>
+                            <assign variable="total1" expression="cost1*amount1"/>
+                        </then>
+                        <else>
+                            <if expression="">
+                                <then>
+                                    <declare name="Item" type="Integer" array="False" size=""/>
+                                    <output expression="cost1 = 10" newline="True"/>
+                                    <declare name="amount1" type="Integer" array="False" size=""/>
+                                    <input variable="amount1"/>
+                                    <assign variable="total1" expression="cost1*amount1"/>
+                                </then>
+                                <else>
+                                    <if expression="">
+                                        <then>
+                                            <declare name="Item" type="Integer" array="False" size=""/>
+                                            <output expression="cost1 = 40" newline="True"/>
+                                            <declare name="amount1" type="Integer" array="False" size=""/>
+                                            <input variable="amount1"/>
+                                            <assign variable="total1" expression="cost1*amount1"/>
+                                        </then>
+                                        <else>
+                                            <if expression="">
+                                                <then>
+                                                    <declare name="Item" type="Integer" array="False" size=""/>
+                                                    <output expression="cost1 = 150" newline="True"/>
+                                                    <declare name="amount1" type="Integer" array="False" size=""/>
+                                                    <input variable="amount1"/>
+                                                    <assign variable="total1" expression="cost1*amount1"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="">
+                                                        <then>
+                                                            <declare name="Item" type="Integer" array="False" size=""/>
+                                                            <output expression="cost1 = 12" newline="True"/>
+                                                            <declare name="amount1" type="Integer" array="False" size=""/>
+                                                            <input variable="amount1"/>
+                                                            <assign variable="total1" expression="cost1*amount1"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <declare name="Item" type="Integer" array="False" size=""/>
+                    <input variable="Item"/>
+                    <if expression="">
+                        <then>
+                            <declare name="Item" type="Integer" array="False" size=""/>
+                            <output expression="cost2 = 15" newline="True"/>
+                            <declare name="amount2" type="Integer" array="False" size=""/>
+                            <input variable="amount2"/>
+                            <assign variable="total2" expression="cost2*amount2"/>
+                        </then>
+                        <else>
+                            <if expression="">
+                                <then>
+                                    <declare name="Item" type="Integer" array="False" size=""/>
+                                    <output expression="cost2 = 10" newline="True"/>
+                                    <declare name="amount2" type="Integer" array="False" size=""/>
+                                    <input variable="amount2"/>
+                                    <assign variable="total2" expression="cost2*amount2"/>
+                                </then>
+                                <else>
+                                    <if expression="">
+                                        <then>
+                                            <declare name="Item" type="Integer" array="False" size=""/>
+                                            <output expression="cost2 = 40" newline="True"/>
+                                            <declare name="amount2" type="Integer" array="False" size=""/>
+                                            <input variable="amount2"/>
+                                            <assign variable="total2" expression="cost2*amount2"/>
+                                        </then>
+                                        <else>
+                                            <if expression="">
+                                                <then>
+                                                    <declare name="Item" type="Integer" array="False" size=""/>
+                                                    <output expression="cost2 = 150" newline="True"/>
+                                                    <declare name="amount2" type="Integer" array="False" size=""/>
+                                                    <input variable="amount2"/>
+                                                    <assign variable="total2" expression="cost2*amount2"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="">
+                                                        <then>
+                                                            <declare name="Item" type="Integer" array="False" size=""/>
+                                                            <output expression="cost2 = 12" newline="True"/>
+                                                            <declare name="amount2" type="Integer" array="False" size=""/>
+                                                            <input variable="amount2"/>
+                                                            <assign variable="total2" expression="cost2*amount2"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <declare name="Item" type="Integer" array="False" size=""/>
+                    <input variable="Item"/>
+                    <if expression="">
+                        <then>
+                            <declare name="Item" type="Integer" array="False" size=""/>
+                            <output expression="cost3 = 15" newline="True"/>
+                            <declare name="amount3" type="Integer" array="False" size=""/>
+                            <input variable="Item"/>
+                            <assign variable="total3" expression="cost3*amount3"/>
+                        </then>
+                        <else>
+                            <if expression="">
+                                <then>
+                                    <declare name="Item" type="Integer" array="False" size=""/>
+                                    <output expression="cost3 = 10" newline="True"/>
+                                    <declare name="amount3" type="Integer" array="False" size=""/>
+                                    <input variable="Item"/>
+                                    <assign variable="total3" expression="cost3*amount3"/>
+                                </then>
+                                <else>
+                                    <if expression="">
+                                        <then>
+                                            <declare name="Item" type="Integer" array="False" size=""/>
+                                            <output expression="cost3 = 10" newline="True"/>
+                                            <declare name="amount3" type="Integer" array="False" size=""/>
+                                            <input variable="Item"/>
+                                            <assign variable="total3" expression="cost3*amount3"/>
+                                        </then>
+                                        <else>
+                                            <if expression="">
+                                                <then>
+                                                    <declare name="Item" type="Integer" array="False" size=""/>
+                                                    <output expression="cost3 = 10" newline="True"/>
+                                                    <declare name="amount3" type="Integer" array="False" size=""/>
+                                                    <input variable="Item"/>
+                                                    <assign variable="total3" expression="cost3*amount3"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="">
+                                                        <then>
+                                                            <declare name="Item" type="Integer" array="False" size=""/>
+                                                            <output expression="cost3 = 10" newline="True"/>
+                                                            <declare name="amount3" type="Integer" array="False" size=""/>
+                                                            <input variable="Item"/>
+                                                            <assign variable="total3" expression="cost3*amount3"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <output expression="&quot;All Total&quot;" newline="True"/>
+                    <assign variable="AllTotal" expression="(cost1*amount1)+(cost2*amount2)+(cost3*amount3)"/>
+                </then>
+                <else>
+                    <output expression="Error" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
